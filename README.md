@@ -24,7 +24,7 @@ Verify and upload the code to your Arduino board.
 
 Open udp_sender.py in your preferred code editor.
 
-Update the receiver IP address and MongoDB connection string as per your setup.
+Update the receiver IP address and MongoDB connection string as per your setup as well as the Port to which the Arduino is connected (e.g PORT 5).
 
 5. Start the Receiver
 
