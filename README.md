@@ -1,40 +1,7 @@
 # Frequency_esitimation
-
-# How to run this project 
-
-1. Clone the Repository
-   
-Open your terminal and execute the following command:
-
-git clone https://github.com/arnavb2004/Frequency_esitimation
-
-2. Set Up the Hardware
-   
-Assemble the hardware as illustrated in the project report and connect the signal input to digital pin 2 of the Arduino.
-
-3. Upload the Arduino Code
-
-Open the Arduino IDE.
-
-Load the file project_ee309.ino.
-
-Verify and upload the code to your Arduino board.
-
-4. Configure the Sender Script
-
-Open udp_sender.py in your preferred code editor.
-
-Update the receiver IP address and MongoDB connection string as per your setup.
-
-5. Start the Receiver
-
-Run the udp_reciever.py script on the receiver (server) machine.
-
-6. Start the Sender
-
-Run the udp_sender.py script on the sender (client) machine (the machine connected to Arduino).
-
-7. Visualize the Data
-
-Upon successful connection, you will be able to view the live frequency graph on the receiver (server) side.
-
+Assemble the circuit for Frequency Estimation and connect the output to PIN 2 of the Arduinio IDE
+Connect the Arduino to your computer and compile and upload the "project_ee309.ino" code on the Arduino using the Arduino IDE application
+Once the code is loaded run the "udp_sender.py" code on the same computer you have connected the Arduino to
+Update the "udp_sender.py" code with the IP address of the reciever you want to send the code too as well as the port to which your Arduino is connected
+Now after running the sender code take another device on which you want to recieve the code and run the "udp_reciever.py"
+After a few seconds the graph and data will be recieved on the 2nd device
